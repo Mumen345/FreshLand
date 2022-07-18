@@ -1,38 +1,99 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  background-image: url('../public/bg_img.png');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+
 }
 
-.App-link {
-  color: #61dafb;
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+  margin-bottom: -50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 100px;
+}
+
+p {
+  margin-top: -50px;
+  font-size: 20px;
+}
+
+
+
+.contactUs {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 50rem;
+  position: relative;
+  align-items: center;
+}
+
+
+.bn31span {
+  background: linear-gradient(to right, #006175 0%, #00a950 100%);
+  ;
+  border-radius: 40px;
+  width: 100%;
+  padding: 10px 20px;
+  margin: 30px;
+  color: #ffffff;
+  outline: none;
+
+}
+
+.bn31span::after {
+  border: none;
+}
+
+.bn31span:hover {
+  opacity: 0.8;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+  .contactUs {
+    flex-direction: column;
+    /* background-color: red; */
+    width: 70%;
+    align-items: center;
+    justify-content: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  h1 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 60px;
+  }
+
+  p {
+    margin-top: -10px;
+    font-size: 20px;
+  }
+
+  .App-logo {
+    height: 10vmin;
+    pointer-events: none;
+    margin-bottom: 0px;
+  }
+
+  .bn31span {
+    margin: 10px;
+
   }
 }

@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from "logo.png";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+      <img className="App-logo " src="logo.png" alt="logo" />
+      <h1>COMING SOON</h1>
+      <p>
+        If you have any question or inquiry? <br /> Get in touch
+      </p>
+      <div className="contactUs">
+        <a className="bn31span" href="mailto:Mercy@freshlandfood.com">
+          Send Email
         </a>
-      </header>
+        <a className="bn31span" href="tel:+4733378901">
+          Call Us
+        </a>
+      </div>
     </div>
   );
 }
