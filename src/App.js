@@ -13,7 +13,7 @@ function App() {
         <a className="bn31span" href="mailto:Mercy@freshlandfood.com">
           Send Email
         </a>
-        <a className="bn31span" href="tel:+4733378901">
+        <a className="bn31span" href="tel:+2348119205944">
           Call Us
         </a>
       </div>
